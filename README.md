@@ -19,7 +19,7 @@ For the next 100 days, I’ll spend at least one hour daily working with Java an
 - Practice object-oriented programming (OOP)
 - Build real-world Java programs and mini-projects
 
----
+---  
 
 ## 📌 Rules I'm Following
 
