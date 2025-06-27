@@ -1,3 +1,5 @@
+// Question 1: Take 5 Integers from User and Print Them
+
 package Day06;
 
 import java.util.*;
@@ -19,7 +21,7 @@ public class Take_Input_And_Print {
             arr[i] = sc.nextInt();
         }
 
-        System.out.print("You entered: ");
+        System.out.println("You entered: ");
 
         for (int j = 0; j < num; j++) {
             System.out.println(arr[j]);
