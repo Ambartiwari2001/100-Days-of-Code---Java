@@ -1,26 +1,30 @@
+// Question 1: Find Maximum Element in Array
+//  Input: {10, 25, 5, 40, 30}
+//  Output: Maximum = 40
+
 package Day07;
 
 public class Find_Max_Array {
 
     public static void main(String[] args) {
 
-        int num[] = { 10, 25, 5, 40, 30 };
+        int arr[] = { 10, 25, 35, 40, 18 };
+
         System.out.print("Array values: ");
-        for (int i = 0; i < num.length; i++) {
-            System.out.print(num[i] + " ");
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
 
-        for (int i = 0; i < num.length; i++) {
-            for (int j = i + 1; j < num.length; j++) {
+        int max = arr[0];
 
-                if (num[i] > num[j]) {
-                    int n = num[j];
-                    num[j] = num[i];
-                    num[i] = n;
-                }
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
             }
         }
-        int len = num.length;
-        System.out.println("maximum number is : " + num[len - 1]);
+
+        System.out.println("\nmaximum value in array is : " + max);
+
     }
 }
