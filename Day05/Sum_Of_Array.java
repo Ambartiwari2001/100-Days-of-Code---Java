@@ -7,12 +7,13 @@ public class Sum_Of_Array {
             System.out.println("Index " + i + ": " + num[i]);
         }
 
-        int sum = 0;
+        int sum = 0; 
 
         for (int i = 0; i < num.length; i++) {
-            sum = sum + num[i];
+            sum = sum + num[i]; 
         }
         System.out.println("Total Sum Of Array is : " + sum);
 
     }
 }
+ 
