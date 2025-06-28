@@ -9,7 +9,7 @@ public class Find_Max_Array {
     public static void main(String[] args) {
 
         int arr[] = { 10, 25, 35, 40, 18 };
-
+ 
         System.out.print("Array values: ");
 
         for (int i = 0; i < arr.length; i++) {
