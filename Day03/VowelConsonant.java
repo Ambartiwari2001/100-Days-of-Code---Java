@@ -12,7 +12,7 @@ public class VowelConsonant {
         if (Character.isLetter(ch)) {
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 System.out.println(ch + " is a vowel.");
-            } else {
+            } else { 
                 System.out.println(ch + " is a consonant.");
             }
         } else {
