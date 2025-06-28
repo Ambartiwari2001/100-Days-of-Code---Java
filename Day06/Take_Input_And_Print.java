@@ -17,7 +17,7 @@ public class Take_Input_And_Print {
 
         System.out.println("Enter the values : ");
 
-        for (int i = 0; i < num; i++) {
+        for (int i = 0; i < num; i++) { 
             arr[i] = sc.nextInt();
         }
 
